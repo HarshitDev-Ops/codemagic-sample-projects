@@ -13,7 +13,7 @@ workflows:
         BUNDLE_ID: "io.codemagic.sample.iosnative"
         # XCODE_WORKSPACE: "CodemagicSample.xcworkspace"
         XCODE_WORKSPACE: "ios/ios-native-quick-start/swiftly.xcworkspace" 
-        XCODE_SCHEME: "CodemagicSample"
+        XCODE_SCHEME: "swiftly"
         # APP_STORE_APPLE_ID: 1555555551
       xcode: 15.0 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
